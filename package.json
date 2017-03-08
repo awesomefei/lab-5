@@ -1,0 +1,16 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "The following function named getProducts() returns a promise. If the promise succeeds then display the list of products in the console window. Otherwise, display the failure reason. You should be able to complete this task with a single line of code:",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32"
+  }
+}
